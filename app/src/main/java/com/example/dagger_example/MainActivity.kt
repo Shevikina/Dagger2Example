@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.dagger_example.data.di.components.ActivityComponent
 import com.example.dagger_example.data.di.scopes.ActivityScope
-import com.example.dagger_example.domain.di.PresenterInterface
+import com.example.dagger_example.ui.presenter.PresenterInterface
 import com.example.dagger_example.ui.theme.Dagger2ExampleTheme
 import javax.inject.Inject
 
