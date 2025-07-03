@@ -19,7 +19,7 @@ Scopes:
 - [ActivityScope](https://github.com/Shevikina/Dagger2Example/blob/main/app/src/main/java/com/example/dagger_example/data/di/scopes/ActivityScope.kt) - скоп активити
 
 Компоненты:
-- [AppComponent](https://github.com/Shevikina/Dagger2Example/blob/main/app/src/main/java/com/example/dagger_example/data/di/components/AppComponent.kt) - основной компонент, содержит фабрику для Application
+- [AppComponent](https://github.com/Shevikina/Dagger2Example/blob/main/app/src/main/java/com/example/dagger_example/data/di/components/AppComponent.kt) - основной компонент, содержит фабрику для добавления Application и доступ к ActivityComponent
 - [ActivityComponent](https://github.com/Shevikina/Dagger2Example/blob/main/app/src/main/java/com/example/dagger_example/data/di/components/ActivityComponent.kt) - комопнент Activity, содержит inject для MainActivity
 
 Presenter:
