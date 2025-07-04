@@ -1,0 +1,3 @@
+package com.example.dagger_example.presentation.presenter
+
+interface PresenterInterface

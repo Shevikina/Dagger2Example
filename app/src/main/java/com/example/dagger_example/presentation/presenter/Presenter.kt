@@ -1,4 +1,4 @@
-package com.example.dagger_example.ui.presenter
+package com.example.dagger_example.presentation.presenter
 
 import android.app.Application
 import javax.inject.Inject
