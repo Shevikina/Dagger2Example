@@ -7,7 +7,6 @@ import dagger.Module
 
 @Module
 interface ExampleModule {
-
     @Binds
     fun presenter(impl: Presenter): PresenterInterface
 }
