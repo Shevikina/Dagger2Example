@@ -1,7 +1,7 @@
-package com.example.dagger_example.data.di.components
+package com.example.dagger_example.di.components
 
 import com.example.dagger_example.MainActivity
-import com.example.dagger_example.data.di.scopes.ActivityScope
+import com.example.dagger_example.di.scopes.ActivityScope
 import dagger.Subcomponent
 
 @ActivityScope

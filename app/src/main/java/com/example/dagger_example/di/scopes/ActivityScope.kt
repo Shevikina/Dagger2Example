@@ -1,4 +1,4 @@
-package com.example.dagger_example.data.di.scopes
+package com.example.dagger_example.di.scopes
 
 import javax.inject.Scope
 

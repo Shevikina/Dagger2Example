@@ -11,9 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.dagger_example.data.di.components.ActivityComponent
-import com.example.dagger_example.data.di.scopes.ActivityScope
-import com.example.dagger_example.ui.presenter.PresenterInterface
+import com.example.dagger_example.di.components.ActivityComponent
+import com.example.dagger_example.di.scopes.ActivityScope
+import com.example.dagger_example.presentation.presenter.PresenterInterface
 import com.example.dagger_example.ui.theme.Dagger2ExampleTheme
 import javax.inject.Inject
 

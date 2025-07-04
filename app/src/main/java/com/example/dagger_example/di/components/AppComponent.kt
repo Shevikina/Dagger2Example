@@ -1,8 +1,8 @@
-package com.example.dagger_example.data.di.components
+package com.example.dagger_example.di.components
 
 import android.app.Application
-import com.example.dagger_example.data.di.ExampleModule
-import com.example.dagger_example.data.di.scopes.AppScope
+import com.example.dagger_example.di.modules.ExampleModule
+import com.example.dagger_example.di.scopes.AppScope
 import dagger.BindsInstance
 import dagger.Component
 
@@ -11,7 +11,7 @@ import dagger.Component
 interface AppComponent {
     @Component.Factory
     interface Factory{
-        fun create(@BindsInstance app:Application):AppComponent
+        fun create(@BindsInstance app:Application): AppComponent
     }
     fun activityComponent(): ActivityComponent
 }
