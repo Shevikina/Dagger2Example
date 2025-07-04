@@ -10,8 +10,9 @@ import dagger.Component
 @Component(modules = [ExampleModule::class])
 interface AppComponent {
     @Component.Factory
-    interface Factory{
-        fun create(@BindsInstance app:Application): AppComponent
+    interface Factory {
+        fun create(@BindsInstance app: Application): AppComponent
     }
+
     fun activityComponent(): ActivityComponent
 }
