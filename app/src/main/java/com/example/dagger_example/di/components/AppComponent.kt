@@ -1,13 +1,12 @@
 package com.example.dagger_example.di.components
 
 import android.app.Application
-import com.example.dagger_example.di.modules.ExampleModule
 import com.example.dagger_example.di.scopes.AppScope
 import dagger.BindsInstance
 import dagger.Component
 
 @AppScope
-@Component(modules = [ExampleModule::class])
+@Component
 interface AppComponent {
     @Component.Factory
     interface Factory {
